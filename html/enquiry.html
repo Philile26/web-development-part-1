@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Make an Enquiry | Soweto Commuter Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Commuter Enquiry Portal</h1>
+        <p>Have a question? Our team is ready to assist you.</p>
+    </header>
+
+    <nav>
+       <a href="index.html">Home</a> | 
+        <a href="routes.html">Routes & Pricing</a> | 
+        <a href="safety.html">Safety Features</a> | 
+        <a href="lost-found.html">Lost & Found</a> | 
+        <a href="feedback.html">Rate Your Driver</a>|
+        <a href="about.html">About Us</a>|
+        <a href="contact us.html">Contact Us</a>|
+       <a href="services.html">services</a>|
+       <a href="enquiry.html">enquiry</a>|
+    </nav>
+
+    <main>
+        <section id="enquiry-intro">
+            <h2>Submit Your Request</h2>
+            <img src="../assets/Enquiry.jpg" alt="Enquiry" width="200PX">
+            <p>Please fill out the form below. Whether it's a question about a specific rank or a request for a private charter quote, we aim to respond within 24 hours.</p>
+        </section>
+
+        <hr>
+
+        <section id="enquiry-form">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <br>
+                    <label for="user-name">Your Full Name:</label><br>
+                    <input type="text" id="user-name" name="user-name" required><br><br>
+
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required placeholder="011 123 4567"><br><br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Enquiry Details</legend>
+                    <br>
+                    <label for="category">What is your enquiry about?</label><br>
+                    <select id="category" name="category">
+                        <option value="fare">Taxi Fare Clarification</option>
+                        <option value="lost">Lost Property Query</option>
+                        <option value="charter">Private Hire Quote</option>
+                        <option value="complaint">Driver/Service Complaint</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label for="details">Provide more details:</label><br>
+                    <textarea id="details" name="details" rows="6" cols="50" placeholder="Please provide route names, taxi registration, or rank location if applicable..."></textarea><br><br>
+                </fieldset>
+
+                <br>
+                <input type="submit" value="Submit Enquiry">
+                <input type="reset" value="Clear Form">
+            </form>
+        </section>
+
+        <section id="faq-link">
+            <p><strong>Quick Tip:</strong> Most fare-related questions can be answered immediately on our <a href="routes.html">Routes & Pricing</a> page.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Soweto Transit Solutions | Commuter Support Division</p>
+    </footer>
+</body>
+</html>
